@@ -1,0 +1,168 @@
+.error {
+	color:red!important;
+	font-size:12px!important;
+}
+
+a.active {
+    color: #25cabf!important;
+}
+
+/*==============================================  range slider setting css ============================================================*/
+.slider-labels{
+  margin-top: 10px;
+}
+
+.price-range-setting .caption {
+    font-size: 12px;
+}
+
+.noUi-target,.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.noUi-target {
+  position: relative;
+  direction: ltr;
+}
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+}
+
+.noUi-stacking .noUi-handle {
+  z-index: 10;
+}
+
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: left 0.3s,top .3s;
+  transition: left 0.3s,top .3s;
+}
+
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+.noUi-base,.noUi-handle {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.noUi-horizontal {
+  height: 4px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  left: -7px;
+  top: -7px;
+  background-color: #25cabf;
+}
+
+.noUi-background {
+  background: #D6D7D9;
+}
+
+.noUi-connect {
+  background: #25cabf;
+  -webkit-transition: background 450ms;
+  transition: background 450ms;
+}
+
+.noUi-origin {
+  border-radius: 2px;
+}
+
+.noUi-target {
+  border-radius: 2px;
+}
+
+.noUi-target.noUi-connect {
+}
+
+.noUi-draggable {
+  cursor: w-resize;
+}
+
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize;
+}
+
+.noUi-handle {
+  cursor: default;
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+
+.noUi-handle:active {
+  border: 8px solid #25cabf;
+  border: 8px solid rgb(37 202 191 / 0.5);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  left: -14px;
+  top: -14px;
+}
+
+[disabled].noUi-connect,[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+
+[disabled].noUi-origin,[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+/*==============================================  range slider css end ============================================================*/
+
+
+.quantity .quantity-minus, .quantity .quantity-plus {
+    background: #25cabf;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 101%;
+    cursor:pointer;
+}
+
+.quantity input {
+    border: none;
+    width: 70px;
+    text-align: center;
+    padding: 0;
+}
+
+.quantity {
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #25cabf;
+    margin: 0 20px 0 0;
+    height: 42px;
+}

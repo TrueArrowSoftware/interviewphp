@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CareerCorner\n"
+"POT-Creation-Date: 2014-05-13 12:24+0530\n"
+"PO-Revision-Date: 2014-05-13 12:24+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../changepassword.php:16 ../../../forgotpassword.php:16
+msgid "We do not found any user or email. Please enter correct information"
+msgstr ""
+
+#: ../../../changepassword.php:23
+msgid "Password is not validated. Please enter your password again."
+msgstr ""
+
+#: ../../../changepassword.php:27 ../../../forgotpassword.php:27
+#: ../../../login.php:29 ../../../register-company.php:15
+#: ../../../register-employee.php:15
+msgid "Human Verification Failed"
+msgstr ""
+
+#: ../../../forgotpassword.php:24
+msgid ""
+"An Email has been sent to reset your password. Please follow the "
+"instructions from email!!!"
+msgstr ""
+
+#: ../../../login.php:16
+msgid "Authentication Failed !!! Please retry."
+msgstr ""
+
+#: ../../../register-company.php:44 ../../../register-company.php:47
+#: ../../../register-employee.php:43 ../../../register-employee.php:46
+#: ../../../admin/company/add.php:55 ../../../admin/employee/add.php:50
+#: ../../../admin/employee/add.php:53
+msgid ""
+"Unable to register your account at this moment. Please try again later!!!"
+msgstr ""
+
+#: ../../../register-company.php:50 ../../../register-employee.php:49
+msgid "Username or Email is already in use."
+msgstr ""
+
+#: ../../../template.php:20
+msgid "Home"
+msgstr ""
+
+#: ../../../template.php:26 ../../../template.php:32
+msgid "Profile"
+msgstr ""
+
+#: ../../../template.php:27
+msgid "List Jobs"
+msgstr ""
+
+#: ../../../template.php:28 ../../../template.php:39
+msgid "Post a Job"
+msgstr ""
+
+#: ../../../template.php:29
+msgid "Search Resume"
+msgstr ""
+
+#: ../../../template.php:33 ../../../template.php:38
+msgid "Search a Job"
+msgstr ""
+
+#: ../../../template.php:34
+msgid "My Resume"
+msgstr ""
+
+#: ../../../template.php:36
+msgid "Logout"
+msgstr ""
+
+#: ../../../template.php:40
+msgid "Login"
+msgstr ""
+
+#: ../../../verification.php:37
+msgid "Verify Account"
+msgstr ""
+
+#: ../../../verification.php:62
+msgid "User already verified"
+msgstr ""
+
+#: ../../../verification.php:66
+msgid "Invalid attempt to verify the user"
+msgstr ""
+
+#: ../../../verification.php:70
+msgid "Invalid user for verification."
+msgstr ""
+
+#: ../../../admin/category/add.php:32 ../../../admin/company/add.php:62
+#: ../../../admin/employee/add.php:60
+msgid "Record Added Successfully"
+msgstr ""
+
+#: ../../../admin/category/add.php:36
+msgid "Unable to add record at this moment!!! Try again later"
+msgstr ""
+
+#: ../../../admin/category/edit.php:34
+msgid "Record updated successfully!!!"
+msgstr ""
+
+#: ../../../admin/category/edit.php:38
+msgid "Fail to update the record"
+msgstr ""
+
+#: ../../../admin/category/index.php:24 ../../../admin/company/index.php:24
+#: ../../../admin/employee/index.php:24
+msgid "Record delete Successfully!!!"
+msgstr ""
+
+#: ../../../admin/category/index.php:27 ../../../admin/company/index.php:27
+#: ../../../admin/employee/index.php:27
+msgid "Fail to delete this record"
+msgstr ""
+
+#: ../../../admin/cms/email.php:26
+msgid "Email Content Updated Successfully"
+msgstr ""
+
+#: ../../../admin/cms/email.php:30
+msgid "Unable to update the email content"
+msgstr ""
+
+#: ../../../admin/cms/index.php:32
+msgid "Page data updated successfully!!!"
+msgstr ""
+
+#: ../../../admin/cms/index.php:36
+msgid "Fail to update the CMS Page"
+msgstr ""
+
+#: ../../../admin/company/add.php:52
+msgid "Unable to create company at this moment. Please try again later!!!"
+msgstr ""
+
+#: ../../../admin/company/add.php:66 ../../../admin/employee/add.php:64
+msgid "Fail to add new Record"
+msgstr ""
+
+#: ../../../admin/company/edit.php:68 ../../../admin/employee/edit.php:67
+msgid "Record Updated Successfully"
+msgstr ""
+
+#: ../../../admin/company/edit.php:72 ../../../admin/employee/edit.php:71
+msgid "Fail to update record at this moment"
+msgstr ""
+
+#: ../../../admin/company/include.php:69 ../../../company/profile.php:114
+msgid "Company Profile"
+msgstr ""
+
+#: ../../../admin/company/include.php:77
+#: ../../../admin/employee/include.php:76 ../../../company/profile.php:122
+#: ../../../employee/profile.php:118
+msgid "Update Profile"
+msgstr ""
+
+#: ../../../admin/configuration/index.php:132
+msgid "Configuration Updated Successfully"
+msgstr ""
+
+#: ../../../admin/configuration/index.php:136
+msgid "Fail to update configuration at this moment"
+msgstr ""
+
+#: ../../../admin/employee/include.php:68
+msgid "Employee Profile"
+msgstr ""
+
+#: ../../../admin/imagemanager/add.php:35
+msgid "Image added successfully"
+msgstr ""
+
+#: ../../../admin/imagemanager/add.php:39
+msgid "Unable to create image"
+msgstr ""
+
+#: ../../../admin/jobs/add.php:70 ../../../company/postajob.php:71
+msgid "Unable to create job at this time, try again later!!!"
+msgstr ""
+
+#: ../../../admin/jobs/add.php:166 ../../../company/postajob.php:114
+msgid "Job Updated Successfully!!!"
+msgstr ""
+
+#: ../../../company/payment.php:43
+msgid "You can buy upto 10 jobs in one transaction"
+msgstr ""
+
+#: ../../../company/profile.php:51 ../../../employee/profile.php:48
+msgid "Profile Updated Successfully!!!"
+msgstr ""
+
+#: ../../../company/profile.php:60 ../../../employee/profile.php:57
+msgid "Password changed successfully!!!"
+msgstr ""
+
+#: ../../../company/profile.php:62 ../../../employee/profile.php:59
+msgid "Authentication Failed!!! Try again with correct password"
+msgstr ""
+
+#: ../../../company/profile.php:126 ../../../company/profile.php:151
+#: ../../../employee/profile.php:122 ../../../employee/profile.php:147
+msgid "Change Password"
+msgstr ""
+
+#: ../../../company/resume.php:41 ../../../employee/job.php:45
+msgid "An Email has been sent to prospect!!!"
+msgstr ""
+
+#: ../../../company/searchresume.php:76
+msgid "No resume found matching your criteria!!!"
+msgstr ""
+
+#: ../../../company/searchresume.php:102 ../../../employee/searchjob.php:102
+msgid "Search Filter"
+msgstr ""
+
+#: ../../../employee/profile.php:110
+msgid "My Profile"
+msgstr ""
+
+#: ../../../employee/resume.php:167
+msgid "Resume Updated Successfully!!!"
+msgstr ""
+
+#: ../../../employee/resume.php:171
+msgid "Unable to create resume at this time, try again later!!!"
+msgstr ""
+
+#: ../../../employee/searchjob.php:76
+msgid "No job found matching your criteria!!!"
+msgstr ""
+
+#: ../../../includes/lib/class.PayPalExpressCheckout.php:14
+msgid "Zero Amount transaction not allowed"
+msgstr ""
+
+#: ../../../includes/lib/class.PayPalExpressCheckout.php:47
+msgid "Incorrect mode of API Call"
+msgstr ""
+
+#: ../../../includes/lib/class.PayPalExpressCheckout.php:59
+msgid "CURL not available. Contact your Server Administrator to Install CURL!"
+msgstr ""
+
+#~ msgid "Welcome to My PHP Application"
+#~ msgstr "This is working."
+
+#~ msgid "Some other string"
+#~ msgstr "sdfasdfasdfs"

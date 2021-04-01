@@ -1,0 +1,90 @@
+body{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+h2.main-tile {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.admin-login{
+    width: 100%;
+    min-height: 100vh;
+}
+
+section.container-fluid.admin-login .row:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+}
+
+.page-body-wrapper {
+    min-height: calc(100vh - 63px);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content-wrapper {
+    background: #fff;
+    padding: 50px 50px 60px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+label,.btn.primary-color,h2.main-tile {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.username-box, .password-box, .sbmt-btn{
+    position: relative;
+}
+
+.username-box span, .password-box span {
+    position: absolute;
+    top: 31px;
+    right: 1px;
+    width: 40px;
+    height: 36px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+}
+
+.btn.primary-color {
+    color: #fff;
+    font-size: 14px;
+}
+
+.login:after{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f2f6";
+    margin: 0 7px;
+}
+
+input::placeholder{
+    color: #ccc !important;
+    font-size: 13px !important;
+}
+
+@media only screen and (max-width: 767px){
+form#user-form {
+    margin: 0 15px;
+}
+}
+
+@media only screen and (max-width: 374px){
+.btn.primary-color {
+    font-size: 10px;
+}
+}

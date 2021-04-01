@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /tasframework/shoppingcart/
+
+RewriteRule document/([0-9]+)/(.*) ./handler/documentdownloadhandler.php?documentid=$1&docname=$2 [QSA,NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) /tasframework/shoppingcart/page.php?pagename=$1 [QSA,L]

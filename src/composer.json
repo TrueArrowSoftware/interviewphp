@@ -1,0 +1,24 @@
+{
+	"name" : "projectname/projectname",
+	"description" : "projectdescription",
+	"keywords" : [
+		"projectkeyword"
+	],
+	"type" : "library",
+	"license" : "Apache-2.0",
+	"homepage" : "http://truearrow.software",
+	"authors" : [{
+			"name" : "TAS",
+			"homepage" : "http://www.truearrow.software"
+		}
+	],
+	"require" : {
+		"tinymce/tinymce":">5.0",
+		"truearrowsoftware/taslib": "^1.0.15"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^8.0"
+	}
+		
+}
+

@@ -1,0 +1,67 @@
+@mixin transition($property){
+	transition: $property;
+	-ms-transition: $property;
+	-webkit-transition: $property;
+}
+
+@mixin transition2($property,$property2){
+	transition: $property,$property2;
+	-ms-transition: $property,$property2;
+	-webkit-transition: $property,$property2;
+}
+
+@mixin transition4($property,$property2,$property3,$property4){
+	transition: $property,$property2,$property3,$property4;
+	-ms-transition: $property,$property2,$property3,$property4;
+	-webkit-transition: $property,$property2,$property3,$property4;
+}
+
+@mixin transform($property){
+	transform: $property;
+	-ms-transform: $property;
+	-webkit-transform: $property;
+}
+
+@mixin btn{
+  padding: 10px 25px;
+	@include transition(.3s ease-in-out);
+}
+
+@mixin title{
+	font-size: 54px;
+	font-weight: 600;
+}
+
+@mixin inner-page{
+/*	transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	-webkit-transform: translateY(-50px); */
+}
+
+@mixin sub-heading{
+	font-size: 20px;
+	color: #bbb;
+}
+
+@mixin padding70{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+@mixin post-ad-title{
+	font-weight: 600;
+	color: $color3;
+}
+
+@mixin card{
+	border: none;
+	border-radius: 1rem;
+	transition: all 0.2s;
+	min-height: 100%;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	&:hover{
+	    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+	    transform: translate(0, -5px);
+	}
+}

@@ -1,0 +1,142 @@
+a{
+    color: #333;
+}
+
+a:hover {
+  color: #000;
+}
+
+.primary-text-color{
+    color: #00867f;
+}
+
+.primary-color {
+    color: #fff;
+}
+
+.primary-color:hover {
+    color: #fff;
+}
+
+.primary-bg-color{
+    background: #00867f;
+}
+
+.primary-bg-color-light{
+    background: rgba(131, 98, 151, .5);
+}
+
+.primary-border-color{
+    border-color: #00867f;
+}
+
+.btn.primary-bg-color:hover,.primary-bg-color-dark{
+    background: #00e2a3;
+}
+
+.primary-bg-color-dark:hover{
+    background: #00867f;
+}
+
+.navbar-nav.side-nav::-webkit-scrollbar-thumb, nav.navbar.header-top::-webkit-scrollbar-thumb {
+    background: #00867f;
+}
+
+.navbar-nav.side-nav::-webkit-scrollbar-track, nav.navbar.header-top::-webkit-scrollbar-track {
+    background: #00867f;
+}
+
+.text-white{
+	color: #fff;
+}
+
+.btn-custom-dashboard:hover {
+    background: #00e2a3;
+}
+
+.custom-radio input:checked ~ .checkmark,.custom-checkbox input:checked ~ .checkmark-box {
+  background-color: #00867f;
+}
+
+button:focus, :focus {
+    outline: 0;
+    border-color: #00867f !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+select.form-control option:hover {
+    background: #00867f !important;
+}
+
+.active>a{
+	background-color:#00e2a3;
+}
+
+.error{
+	color:#f00;
+}
+ul.navbar-nav.ml-md-auto.d-md-flex.right-menu span.select2-selection.select2-selection--single {
+    margin: 2px;
+    background: #00e2a3;
+    border: none;
+}
+ul.navbar-nav.ml-md-auto.d-md-flex.right-menu span#select2-hotellist-container {
+    color: #fff;
+}
+ul.navbar-nav.ml-md-auto.d-md-flex.right-menu .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #fff transparent transparent transparent;
+}
+ul.navbar-nav.ml-md-auto.d-md-flex.right-menu .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #fff transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+    background-color: #00e2a3;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #00867f;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+    border-radius: 10px;
+    background-color: #00867f;
+}
+
+.btn-outline-fa-color{
+    color: #00867f;
+    border-color: #00867f;
+}
+
+.btn-outline-fa-color:hover{
+    background-color: #00867f;
+    color:#fff;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+button#leftsideCollapse i {
+    transform: rotate(0);
+    transition: .3s all;
+}
+
+button#leftsideCollapse.close-icon i {
+    transform: rotate(180deg);
+}
+
+.logo-size{
+	height:45px;
+}
